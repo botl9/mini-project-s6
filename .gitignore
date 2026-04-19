@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (all large binary files)
+model/*.npy
+model/*.pckl
+model/*.h5
+
+# Video/Temp files
+*.mp4
+*.avi
+*.mov
+
+# YOLO model (auto-downloaded)
+yolov8n.pt
