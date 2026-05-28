@@ -7,6 +7,21 @@
 
 A semester 6 mini project that implements object detection in video surveillance using CNN (Convolutional Neural Network) combined with various computer vision techniques.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [GUI Features](#gui-features)
+- [Model Architecture](#model-architecture)
+- [Technical Details](#technical-details)
+- [Known Issues & Solutions](#known-issues--solutions)
+- [Output](#output)
+- [References](#references)
+- [License](#license)
+
 ## Project Overview
 
 This project demonstrates an enhanced surveillance system that uses deep learning and traditional computer vision methods for object detection and classification. The system compares the performance of CNN alone versus hybrid approaches combining CNN with:
