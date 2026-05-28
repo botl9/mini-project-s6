@@ -1,5 +1,10 @@
 # Improving Surveillance System Performance Using Computer Vision
 
+![Python](https://img.shields.io/badge/python-3.9+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey)
+![GitHub repo size](https://img.shields.io/github/repo-size/botl9/mini-project-s6)
+
 A semester 6 mini project that implements object detection in video surveillance using CNN (Convolutional Neural Network) combined with various computer vision techniques.
 
 ## Project Overview
