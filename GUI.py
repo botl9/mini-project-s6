@@ -137,7 +137,7 @@ def HOG():
     for i in range(0,10000):
         img = X_train[i]
         #calculating Histogram of Oriented Gradients
-        fd, hog_image = hog(img, orientations=8, pixels_per_cell=(16, 16), cells_per_block=(1, 1), visualize=True, multichannel=True)
+        fd, hog_image = hog(img, orientations=8, pixels_per_cell=(16, 16), cells_per_block=(1, 1), visualize=True, channel_axis=-1)
         hog_image_rescaled = exposure.rescale_intensity(hog_image, in_range=(0, 10))
         X.append(hog_image_rescaled.ravel())
         Y.append(Y_train[i])
